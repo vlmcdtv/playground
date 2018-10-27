@@ -21,6 +21,11 @@ a:hover {
     @apply .text-blue-twit;
 }
 
+.hero {
+    background-image: url("/images/hero.jpg");
+}
+
+
 .top-nav-item {
     @apply .text-grey-darker .mr-5 .font-semibold .pb-4 .border-b-2 .border-solid .border-transparent .text-sm;
 }
@@ -28,10 +33,6 @@ a:hover {
 .top-nav-item:hover {
     text-decoration: none;
     @apply .text-blue-twit .border-blue;
-}
-
-.hero {
-    background-image: url("/images/hero.jpg");
 }
 
 /**

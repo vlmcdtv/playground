@@ -627,6 +627,10 @@ a:hover {
   color: #1da1f2;
 }
 
+.hero {
+  background-image: url("/images/hero.jpg");
+}
+
 .top-nav-item {
   color: #606f7b;
   margin-right: 1.25rem;
@@ -642,10 +646,6 @@ a:hover {
   text-decoration: none;
   color: #1da1f2;
   border-color: #3490dc;
-}
-
-.hero {
-  background-image: url("/images/hero.jpg");
 }
 
 /**
