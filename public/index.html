@@ -53,7 +53,7 @@
         <div class="w-1/4">
           <img src="<%= BASE_URL %>images/trump.jpg" alt="logo" class="h-48 w-48 rounded-full absolute -mt-24 pin-l pin-t border-4 border-white">
         </div>
-          http://localhost:8080/images/hero.jpg
+
         <div class="w-1/2">
           <ul class="list-reset flex">
             <li class="text-center py-3 p-4 border-b-2 border-solid border-blue">
@@ -146,18 +146,21 @@
               </div>
 
               <div class="w-7/8 p-3 pl-0">
-                  <div class="flex">
-                      <span class="text-sm font-bold mr-1"><a href="#" class="text-black">Donald J. Trump</a></span>
-                      <span class="text-sm mr-1"><a href="#" class="text-grey-darker hover:text-grey-darker hover:no-underline">@realDonaldTrump</a></span>
-                      <span class="text-grey-darker text-sm mr-1">&middot;</span>
-                      <span class="text-grey-darker text-sm mr-1"><a href="#" class="text-grey-darker hover:text-blue-twit hover:underline">1h</a></span>
+                  <div class="flex justify-between">
+                      <div>
+                        <span class="text-sm font-bold mr-1"><a href="#" class="text-black">Donald J. Trump</a></span>
+                        <span class="text-sm mr-1"><a href="#" class="text-grey-darker hover:text-grey-darker hover:no-underline">@realDonaldTrump</a></span>
+                        <span class="text-grey-darker text-sm mr-1">&middot;</span>
+                        <span class="text-grey-darker text-sm mr-1"><a href="#" class="text-grey-darker hover:text-blue-twit hover:underline">1h</a></span>
+                      </div>
+
                       <div class="text-right">
                           <a href="#" class="text-grey-dark hover:text-blue-twit"><i class="fas fa-chevron-down"></i></a>
                       </div>
                   </div>
 
                  <div class="mb-4">
-                     <p class="mb-6 text-sm">Just leaving Wisconsin. <a href="#" class="text-blue-twit hover:underline">@ScottWalker</a> and <a href="#" class="text-blue-twit hover:underline">@LeahVukmir</a> are fantastic people, badly needed for our Country! <a href="#" class="text-blue-twit hover:underline">#MAGA</a></p>
+                     <p class="mb-6 text-sm leading-normal">Just leaving Wisconsin. <a href="#" class="text-blue-twit hover:underline">@ScottWalker</a> and <a href="#" class="text-blue-twit hover:underline">@LeahVukmir</a> are fantastic people, badly needed for our Country! <a href="#" class="text-blue-twit hover:underline">#MAGA</a></p>
                      <img src="<%= BASE_URL %>images/tweet1.jpg" alt="image" class="rounded-lg">
                  </div>
                   <div class="pb-2">
@@ -165,16 +168,95 @@
                       <span class="mr-8"><a href="#" class="text-grey-dark font-bold text-xs hover:no-underline hover:text-green"><i class="fas fa-retweet fa-lg mr-2"></i>2.7K</a></span>
                       <span class="mr-8"><a href="#" class="text-grey-dark font-bold text-xs hover:no-underline hover:text-red"><i class="far fa-heart fa-lg mr-2"></i>9.8K</a></span>
                       <span class="mr-8"><a href="#" class="text-grey-dark font-bold text-xs hover:no-underline hover:text-blue-twit"><i class="far fa-envelope fa-lg mr-2"></i></a></span>
-
-
                   </div>
+              </div>
+          </div>
+          <!--SECOND TWEET-->
+          <div class="flex border-b border-solid border-grey-light">
+            <div class="w-1/8 text-right pl-3 pt-3">
+              <a href="#"><img src="<%= BASE_URL %>images/trump.jpg" class="w-12 h-12 rounded-full mr-2"></a>
+            </div>
 
+                <div class="w-7/8 p-3 pl-0">
+                    <div class="flex justify-between">
+                        <div>
+                            <span class="text-sm font-bold mr-1"><a href="#" class="text-black">Donald J. Trump</a></span>
+                            <span class="text-sm mr-1"><a href="#" class="text-grey-darker hover:text-grey-darker hover:no-underline">@realDonaldTrump</a></span>
+                            <span class="text-grey-darker text-sm mr-1">&middot;</span>
+                            <span class="text-grey-darker text-sm mr-1"><a href="#" class="text-grey-darker hover:text-blue-twit hover:underline">1h</a></span>
+                        </div>
+                        <div class="text-right">
+                            <a href="#" class="text-grey-dark hover:text-blue-twit"><i class="fas fa-chevron-down"></i></a>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="mb-4 text-sm leading-normal">Republicans will totally protect people with Pre-Existing Conditions, Democrats will not! Vote Republican.</p>
+                    </div>
+                    <div class="pb-2">
+                        <span class="mr-8"><a href="#" class="text-grey-dark font-bold text-xs hover:no-underline hover:text-blue-twit"><i class="far fa-comment fa-lg mr-2"></i>40K</a></span>
+                        <span class="mr-8"><a href="#" class="text-grey-dark font-bold text-xs hover:no-underline hover:text-green"><i class="fas fa-retweet fa-lg mr-2"></i>20K</a></span>
+                        <span class="mr-8"><a href="#" class="text-grey-dark font-bold text-xs hover:no-underline hover:text-red"><i class="far fa-heart fa-lg mr-2"></i>76K</a></span>
+                        <span class="mr-8"><a href="#" class="text-grey-dark font-bold text-xs hover:no-underline hover:text-blue-twit"><i class="far fa-envelope fa-lg mr-2"></i></a></span>
+                    </div>
+                </div>
+      </div>
+    </div>
+        <!--END OF TWEETS-->
 
+      <div class="w-1/4 pl-4">
+          <div class="bg-white p-3 mb-3">
+              <div>
+                  <span class="font-bold">Who to Follow</span>
+                  <span class="text-grey-darker">&middot;</span>
+                  <span><a href="#" class="text-xs">Refresh</a></span>
+                  <span class="text-grey-darker">&middot;</span>
+                  <span><a href="#" class="text-xs">View All</a></span>
+              </div>
+
+              <div class="flex border-b border-solid border-grey-light">
+                  <div class="py-2">
+                      <a href="#"><img src="<%= BASE_URL %>images/whotofollow1.jpg" class="w-12 h-12 rounded-full mr-2"></a>
+              </div>
+                  <div class="pl-2 py-2 w-full">
+                          <div class="flex justify-between mb-1">
+                              <a href="#" class="text-black font-bold hover:underline hover:text-blue-twit -mr-1">President Trump</a>
+                              <a href="#" class="text-grey-darker hover:no-underline">@PO...</a>
+                              <a href="#" class="text-grey-dark font-bold text-xs hover:no-underline"><i class="fas fa-times text-sm"></i></a>
+                          </div>
+                      <button class="bg-transparent hover:bg-blue-lightest text-blue-twit font-medium px-6 py-2 border border-blue rounded-full">Follow</button>
               </div>
           </div>
 
-          </div>
-      <div class="w-1/4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A facilis numquam provident quae quibusdam. Adipisci eveniet libero magnam nobis repellat.</div>
+
+              <div class="flex border-b border-solid border-grey-light">
+                  <div class="py-2">
+                      <a href="#"><img src="<%= BASE_URL %>images/whotofollow2.jpg" class="w-12 h-12 rounded-full mr-2"></a>
+                  </div>
+                  <div class="pl-2 py-2 w-full">
+                      <div class="flex justify-between mb-1">
+                          <a href="#" class="text-black font-bold hover:underline hover:text-blue-twit -mr-1">Barack Obama</a>
+                          <a href="#" class="text-grey-darker hover:no-underline">@Barac...</a>
+                          <a href="#" class="text-grey-dark font-bold text-xs hover:no-underline"><i class="fas fa-times text-sm"></i></a>
+                      </div>
+                      <button class="bg-transparent hover:bg-blue-lightest text-blue-twit font-medium px-6 py-2 border border-blue rounded-full">Follow</button>
+                  </div>
+              </div>
+
+
+              <div class="flex border-b border-solid border-grey-light">
+                  <div class="py-2">
+                      <a href="#"><img src="<%= BASE_URL %>images/whotofollow3.jpg" class="w-12 h-12 rounded-full mr-2"></a>
+                  </div>
+                  <div class="pl-2 py-2 w-full">
+                      <div class="flex justify-between mb-1">
+                          <a href="#" class="text-black font-bold hover:underline hover:text-blue-twit -mr-1">Hillary Clinton</a>
+                          <a href="#" class="text-grey-darker hover:no-underline">@Hillary...</a>
+                          <a href="#" class="text-grey-dark font-bold text-xs hover:no-underline"><i class="fas fa-times text-sm"></i></a>
+                      </div>
+                      <button class="bg-transparent hover:bg-blue-lightest text-blue-twit font-medium px-6 py-2 border border-blue rounded-full">Follow</button>
+                  </div>
+              </div>
+
     </div>
 
 
